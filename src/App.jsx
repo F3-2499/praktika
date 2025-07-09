@@ -1,10 +1,14 @@
 import React from 'react'
-import Nav from './Components/Nav'
+import Header from './Components/Header'
+import Section from './Components/Section'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
     <div>
-      <Nav/>
+      <Header/>
+      <Section/>
+      <Footer/>
     </div>
   )
 }

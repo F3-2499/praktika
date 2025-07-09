@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
+.section{
+    width: 1440px;
+    background: #F7F8F8;
+    padding: 0 100px;
+    margin: 0 auto;
+}
+.section_cards{
+    padding: 60px 0;
+    display: flex;
+    gap: 20px;
+}
+.section_card{
+    width: 646px;
+    height: 288px;
+    opacity: 1;
+    gap: 20px;
+    border-radius: 40px 50px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.05);
+}
+.section_card p{
+    width: 666px;
+    font-family: "Libertinus Mono", monospace;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 139%;
+    letter-spacing: 0px;
+    color: rgba(111, 121, 115, 1);    
+}
+.sectionlogo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sectionlogo h2{
+    font-family: "Libertinus Mono", monospace;
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 139%;
+    letter-spacing: 0px;
+    color: rgba(44, 43, 53, 1);
+}
+.sbtn{
+    width: 146px;
+    height: 42px;
+    opacity: 1;
+    gap: 10px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 1000px;
+    border: 1px solid rgba(67, 165, 72, 1);
+    font-family: "Libertinus Mono", monospace;
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 139%;
+    letter-spacing: 0px;
+    text-align: justify;
+    color: rgba(67, 165, 72, 1);
+    padding-left: 30px;
+    margin-top: 32px;
+}
+.sbtn:hover{
+    background: linear-gradient(100.98deg, #43A548 -4.14%, #52E259 108.69%);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+.section1_cards{
+    display: flex;
+    gap: 20px;
+}
+.section1_card{
+    width: 424px;
+    height: 358px;
+    opacity: 1;
+    gap: 20px;
+    border-radius: 40px 50px;
+    padding: 60px 60px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.05);
+}
+.section1_card p{
+    width: 344px;
+    font-family: "Libertinus Mono", monospace;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 139%;
+    letter-spacing: 0px;
+    color: rgba(111, 121, 115, 1);   
+}
+.prizes{
+    width: 1312px;
+    height: 56px;
+    justify-content: space-between;
+    opacity: 1;
+    border-radius: 40px;
+    padding: 32px;
+    background: linear-gradient(252.7deg, #EBF5EB 17.34%, #EFFBF0 90.57%);
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.05);
+}
+.priz{
+    display: flex;
+    gap: 20px;
+}
+.priz img{
+    margin-left: 32px;
+}
+.priz h1{
+    font-family: "Libertinus Mono", monospace;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 139%;
+    letter-spacing: 0px;
+    color: rgba(67, 165, 72, 1);    
+}
+.now{
+    width: 211px;
+    height: 42px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 1000px;
+    background: linear-gradient(100.98deg, #43A548 -4.14%, #52E259 108.69%);
+    color: rgba(247, 248, 248, 1);
+    border: none;
+    margin-left: 186px;
+    margin-top: 10px;
+}
+.comparison {
+    padding: 100px;
+    background-color: #F7F8F8;
+}
+.comparison h1 {
+    font-family: "Libertinus Mono", monospace;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: #3D4641;
+    margin-bottom: 40px;
+}
+.comparison-content {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+.comparison-column {
+    width: 50%;
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.comparison-column h2 {
+    font-family: "Libertinus Mono", monospace;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.comparison-column.bad {
+    background: #fff;
+}
+.comparison-column.good {
+    background: linear-gradient(252.7deg, #E5F6E6 17.34%, #DFF7E0 90.57%);
+}
+.comparison-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.comparison-column li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 20px;
+    font-family: "Libertinus Mono", monospace;
+    font-size: 16px;
+    color: #3D4641;
+}
+.comparison-column img {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+}
+.popular-wrapper {
+    width: 1240px;
+    margin: 40px auto;
+    background-color: #f5faf6;
+    padding: 20px 0;
+}
+.popular-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.popular-header h2 {
+    font-family: "Libertinus Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1d1d1b;
+}
+.popular-btn {
+    width: 130px;
+    height: 40px;
+    background-color: #28c86f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: "Libertinus Mono", monospace;
+}
+.product-cards {
+    display: flex;
+    gap: 20px;
+}
+.product-card {
+    width: 370px;
+    height: 430px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 24px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #1d1d1b;
+    font-family: "Libertinus Mono", monospace;
+}
+.product-card ul {
+    padding-left: 16px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #2e2e2e;
+    font-family: "Libertinus Mono", monospace;
+}
+.product-card li {
+    margin-bottom: 6px;
+    font-family: "Libertinus Mono", monospace;
+}
+.product-card .price {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-color: #e6fff1;
+    color: #28c86f;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-family: "Libertinus Mono", monospace;
+}
+.product-card a {
+    color: #28c86f;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Libertinus Mono", monospace;
+}
+.retail-section {
+    width: 1240px;
+    margin: 40px auto;
+    display: flex;
+    gap: 40px;
+}
+.retail-left {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.retail-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.retail-right {
+    width: 750px;
+}
+.retail-right h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1d1d1b;
+    font-family: "Libertinus Mono", monospace;
+    position: relative;
+    right: 500px;
+    bottom: 25px;
+}
+.retail-card {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 40px;
+    padding: 24px 28px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.05);
+}
+.retail-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1d1d1b;
+    margin-bottom: 10px;
+    font-family: "Libertinus Mono", monospace;
+}
+.retail-card p {
+    font-size: 14px;
+    color: #2e2e2e;
+    margin-bottom: 8px;
+    line-height: 1.5;
+    font-family: "Libertinus Mono", monospace;
+}
+.retail-card ul {
+    padding-left: 18px;
+    margin-bottom: 10px;
+    font-family: "Libertinus Mono", monospace;
+}
+.retail-card li {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #2e2e2e;
+    font-family: "Libertinus Mono", monospace;
+}
+.retail-card a {
+    color: #28c86f;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Libertinus Mono", monospace;
+}
+.consultation-container {
+    width: 1240px;
+    height: 442px;
+    margin: 60px auto;
+    background: linear-gradient(100.98deg, #43A548 -4.14%, #52E259 108.69%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 60px;
+    color: white;
+    box-sizing: border-box;
+    font-family: "Libertinus Mono", monospace;
+    position: relative;
+}.consultation-left {
+    max-width: 430px;
+}
+.consultation-left h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+.consultation-left p {
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 320px;
+}
+.consultation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 320px;
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.consultation-form input {
+    height: 36px;
+    border: none;
+    border-radius: 8px;
+    padding: 0 12px;
+    font-size: 14px;
+    color: #333;
+}
+.consultation-form button {
+    height: 36px;
+    background-color: white;
+    color: #28c86f;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 2px;
+}
+.disclaimer {
+    font-size: 11px;
+    color: #ffffffcc;
+    line-height: 1.4;
+    margin-top: 4px;
+    text-align: left;
+}
+.faq {
+    padding: 60px 20px;
+    max-width: 1311px;
+    margin: 0 auto;
+    border-radius: 12px;
+    font-family: "Libertinus Mono", monospace;
+    box-sizing: border-box;
+}
+.faq-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #2d2d2d;
+}
+.faq-item {
+    background-color: #ffffff;
+    border-radius: 40px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+.faq-toggle {
+    display: none;
+}
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 20px 40px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 40px;
+    cursor: pointer;
+    color: #1f1f1f;
+    font-family: "Libertinus Mono", monospace;
+    box-sizing: border-box;
+}
+.faq-question h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+.arrow {
+    width: 24px;
+    height: 24px;
+    border-right: 2px solid #888;
+    border-bottom: 2px solid #888;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+    margin-left: 16px;
+}
+.faq-toggle:checked + .faq-question .arrow {
+    transform: rotate(-135deg);
+    border-color: #2ecc71;
+}
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    padding: 0 40px;
+    font-size: 18px;
+    color: #444;
+    line-height: 1.7;
+}
+.faq-toggle:checked + .faq-question + .faq-answer {
+    max-height: 1000px;
+    padding-bottom: 24px;
+}
+.faq-answer ul {
+    padding-left: 20px;
+    margin-top: 12px;
+}
+.faq-answer li {
+    margin-bottom: 8px;
+    list-style: disc;
+}
+.knowledge-section {
+    max-width: 1311px;
+    margin: 80px auto;
+    padding: 0 20px;
+    font-family: "Libertinus Mono", monospace;
+  }
+  
+  .knowledge-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  
+  .knowledge-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #2d2d2d;
+  }
+  
+  .knowledge-all-btn {
+    background-color: #2ecc71;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 24px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s ease;
+  }
+  
+  .knowledge-all-btn:hover {
+    background-color: #28b765;
+  }
+  
+  .knowledge-slider {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .slider-arrow {
+    font-size: 28px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #2ecc71;
+    padding: 0 12px;
+  }
+  
+  .knowledge-cards {
+    display: flex;
+    gap: 24px;
+    overflow: hidden;
+  }
+  
+  .knowledge-card {
+    background-color: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    flex: 0 0 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .knowledge-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .knowledge-card h3 {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px 20px 0 20px;
+    color: #2d2d2d;
+  }
+  
+  .read-link {
+    padding: 16px 20px 20px;
+    color: #2ecc71;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .read-link:hover {
+    text-decoration: underline;
+  }
+  
+  

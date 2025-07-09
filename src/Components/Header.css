@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
+.header{
+  width: 1440px;
+  padding: 24px 100px;
+  margin: 0 auto;
+}
+.nav {
+  width: 1512px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo h1 {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(44, 43, 53, 1);
+}
+
+.nav-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin-right: 50px;
+}
+
+.nav-list li {
+  font-family: "Libertinus Mono", monospace;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(44, 43, 53, 1);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.nav-list li:hover {
+  color: #28a745; 
+}
+.btn-login {
+  width: 72px;
+  height: 40px;
+  background: linear-gradient(100.98deg, #43A548 -4.14%, #52E259 108.69%);
+  border: none;
+  color: white;
+  font-family: "Libertinus Mono", monospace;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  right: 350px;
+}
+
+.btn-login:hover {
+  background-color: #218838;
+}
+.header-content{
+  display: flex;
+}
+.header-content-text{
+  padding: 135px 0;
+}
+.header-content-text h1{
+  width: 646px;
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 600;
+  font-style: Semibold;
+  font-size: 60px;
+  leading-trim: NONE;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0px;
+  color: rgba(44, 43, 53, 1);
+}
+.header-content-text p{
+  width: 648px;
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 139%;
+  letter-spacing: 0px;
+  color: rgba(44, 43, 53, 1);
+}
+.hdbtn {
+  width: 249px;
+  height: 42px;
+  border-radius: 1000px;
+  background: linear-gradient(100.98deg, #43A548 -4.14%, #52E259 108.69%);
+  border: none;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  gap: 10px; 
+  opacity: 1;
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 600;
+  font-style: Semibold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 139%;
+  letter-spacing: 0px;
+  text-align: justify;
+  color: rgba(247, 248, 248, 1);  
+  margin-top: 30px;
+}
+.header-content-img{
+  padding-top: 70px;
+}
